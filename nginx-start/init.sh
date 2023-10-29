@@ -1,1 +1,1 @@
-envsubst '${NODEIP},${SVCNAME},${SVCPORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf
+envsubst '${NODEIP},${SVCNAME},${SVCPORT}' < /opt/app-root/etc/nginx.default.d/nginx-proxy.conf > /opt/app-root/etc/nginx.default.d/nginx-proxy.conf
